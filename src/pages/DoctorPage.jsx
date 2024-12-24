@@ -21,7 +21,7 @@ function DoctorPage() {
       expertise: "Dermatologist",
       location: "Mumbai",
       fees: "Rs. 300",
-      image: "https://via.placeholder.com/150", // Placeholder image
+      image: "https://via.placeholder.com/150", 
       description: "Experienced Dermatologist specializing in skin and hair care.",
     },
     {
@@ -36,7 +36,7 @@ function DoctorPage() {
   ];
 
   const handleViewProfile = (doctor) => {
-    // Save the selected doctor to localStorage
+    
     localStorage.setItem("selectedDoctor", JSON.stringify(doctor));
   };
 
